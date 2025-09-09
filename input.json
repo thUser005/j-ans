@@ -1,0 +1,331 @@
+[
+    {
+        "title": "Absolute difference",
+        "question": "Given a positive integer n, print the absolute difference between n and 21 if n is less than 21, otherwise print double the absolute difference.\n\n\n\n\nSample Input: 17\n\nSample Output: 4\n\n\n\n\nSample Input: 30\n\nSample Output: 18",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 0
+    },
+    {
+        "title": "Sum or Difference",
+        "question": "Given two int values, a and b, return true if either one is 6. Or if their sum or difference is 6. Use the method Math.abs(num) to compute the absolute value of a number.\nExpected Input:\n6 4\nExpected Output:\ntrue\nExpected Input:\n7 -1\nExpected Output:\ntrue",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 2
+    },
+    {
+        "title": "TCS Gems",
+        "question": "You have received TCS gems worth Rs. C. You can see a catalogue L of all available items. From this list you can select two items that add up to Rs. C. The solution you provide will consist of the two integers indicating the positions of the items in your list (smaller number first).\nInput Specification:\nThe first line of input gives the number of cases, N.\nFor each test case there will be: One line containing the value C - the value of gems awarded to you\nAnother line containing the value I, the list of items in the catalogue\nAnother line containing a space separated list of I integers. Each integer P indicates the price of an item in the store. (You will find only 2 items adding up to C in any list)\nOutput Specification:\nFor each test case, output consists of one line containing the indices of the two items whose price adds up to C. The lower index should be output first.\nHint: Assume the starting index is 1.\nSample Input:\n3\n100\n3\n5 75 25\n200\n7\n150 24 79 50 88 345 3\n8\n8\n2 1 9 4 4 56 90 3\nSample Output:\n2 3\n1 4\n4 5",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 5
+    },
+    {
+        "title": "Find Element",
+        "question": "Write a  function findElement that searches for a given value in the given array and return the index position where it is found or -1 if not found.  Use the following function definition:\n  int findElement(int[] arr, int value);",
+        "basecode": "// donot change the class name or method name\npublic class ArraySearch{\npublic int findElement(int[] arr,int value) {\n//  your code here\n             } // findElement\n} // class",
+        "wrappercode": true,
+        "i": 8
+    },
+    {
+        "title": "Correct division",
+        "question": "Write a program to input 2 integers and divide the first numer by the second one. If the second number is not zero then return the answer otherwise throw an error \"Divison by zero is not possible\"",
+        "basecode": "class Validation {\n/* Write your method here\n   int divide(int a, int b) \n*/\n}",
+        "wrappercode": true,
+        "i": 9
+    },
+    {
+        "title": "Factorial of a number",
+        "question": "Factorial of a number 'n' is the product of all numbers from 1 to 'n'.\nWrite a program to input a number and print its factorial. (Note: 0 factorial is 1)\nIf the input is negative, it should print \"Invalid Input\"\nSample Input: 4\nSample Output: 24\nExplanation: 1x2x3x4 = 24\nSample Input: -2\nSample Output: Invalid Input\nSample Input: 0\nSample Output: 1\nExplanation: 0 factorial is 1 as a rule.",
+        "basecode": "//Write your code here",
+        "wrappercode": null,
+        "i": 11
+    },
+    {
+        "title": "Simple Array 2",
+        "question": "Write a program to input array size in 1st line and the elements in the , sort the Array(Without using any library functions) in Ascending and print the Elements in the Array\nSample input:\n5\n5 3 2 4 1\nSample output:\n1 2 3 4 5",
+        "basecode": "//Write your code here",
+        "wrappercode": null,
+        "i": 12
+    },
+    {
+        "title": "NumSum",
+        "question": "Write a program to input an integer n and print the sum of all the positive numbers from 1 to n and print it.\nSample input: 5\nSample output: 15\nExplanation: 1+2+3+4+5 = 15",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 13
+    },
+    {
+        "title": "Lucky Number",
+        "question": "A 3-digit number is said to be a Lucky number if the sum of the first digit and third digit in the number is equal to the second digit in the number.\nWrite a Java program to find whether a given number is a Lucky Number or not.\nInput specification:\nInput consists of a single integer.\nOutput specification:\nIf the input is not a 3-digit number, the output must be 'Invalid Input'. If the input is a Lucky number, the output must be 'Lucky Number'. If the input is not a Lucky number, the output must be 'Not A Lucky Number' followed by a newline.\nSample Input: 165\nSample Output: Lucky Number\nSample Input: 2345\nSample Output: Invalid Input\nSample Input: 232\nSample Output: Not A Lucky Number",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 15
+    },
+    {
+        "title": "Remove A",
+        "question": "Given a string, write a program to get a substring that starts from the first occurrence of letter 'a' and ends with the last occurrence of letter 'a'. Remove all occurrences of letter 'a' from the substring and print.\nSample Input:\ni am a beautiful fairy\nSample Output: \nm beutiful f",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 16
+    },
+    {
+        "title": "Concatenate Me",
+        "question": "Write a program to read n number of strings, Concatenate the last 2 characters in each string and print it.\nInput specification:\nThe first line of input will contain the number of strings. The string values, one per line will follow.\nSample Input : \n3\njava\ncoding\nbugs\nSample Output :\nvanggs",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 17
+    },
+    {
+        "title": "Switch Case",
+        "question": "Write a Java Program that will switch the case of character to Upper if it is lower and to lower if it is upper. Print the output as invalid if your input contains digit or special characters except space.\n\n\n\n\nSample Input: i loVE JAVA\n\nSample Output: I LOve java\n\n\n\n\nSample Input: 123!@#\n\nSample Output: Invalid Input",
+        "basecode": "//write your code here\nimport java.util.*;\n\npublic class Sol {\n\tpublic static void main(String[] args) {\n\t\tScanner sc = new Scanner(System.in);\n\t\t\n\t\tint n = sc.nextInt();\n\t\tint[] arr = new int[n];\n\t\tfor (int i = 0; i < n; i++) {\n\t\t\tarr[i] = sc.nextInt();\n\t\t\t}\n\t\t\t\n\t\t\tint k = sc.nextInt();\n\t\t\tint[] sub = new int[k];\n\t\t\tfor (int i = 0; i < k; i++) {\n\t\t\t\tsub[i] = sc.nextInt();\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tint count = 0;\n\t\t\t\tfor (int i = 0; i <= n - k; i++) {\n\t\t\t\t\tboolean match = true;\n\t\t\t\t\tfor (int j = 0; j < k; j++) {\n\t\t\t\t\t\tif (arr[i + j] != sub[j]) {\n\t\t\t\t\t\t\tmatch = false;\n\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\tif (match) count++;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tSystem.out.println(count);\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t))\n\t\t\t\t\t\t}]])\n\t\t\t\t\t})\n\t\t\t\t}))]\n\t\t\t})]]))]\n\t\t})]]))\n\t}])\n}",
+        "wrappercode": null,
+        "i": 19
+    },
+    {
+        "title": "Arithmetic Progression",
+        "question": "Write a Java program to print the nth term of an arithmetic progression (AP). Your program should take three integers corresponding to the first term, common difference and n as input and print the nth term in a line by itself. In AP series, nth term=first term+(n-1)* common difference.\n\n\n\n\nSample input: 1 5 10\n\nExpected output: 46",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 25
+    },
+    {
+        "title": "Right Shift Array",
+        "question": "Write a java program to shift the array elements to the right side by k terms Sample:\n\nInput:\n\n5\n\n1 2 3 4 5\n\n3\n\nOutput:\n\n3 4 5 1 2\n\nExplanation: Array of size 5 i.e, {1, 2, 3, 4, 5} is\n\nshifted to k places, which is 3. So the values in the each index position\"s are shifted by 3 places, producing the output as {3, 4, 5, 1, 2}",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 28
+    },
+    {
+        "title": "Factorial Zeros",
+        "question": "Function F is defined thus: For any positive integer X, F(X) is the number of zeros at the end of the decimal form of number X!. This function never decreases. If we have two numbers X1<X2, then F(X1) <= F(X2). It is because we can never \"\"lose\"\" any trailing zero by multiplying by any positive number. We can only get new and new zeros. The function F is very interesting, so we need a computer program that can determine its value efficiently.\nInput\nThere is a single positive integer X, 1 <= X <= 1000.\nOutput\nA single line containing the single non-negative integer F(X).\nExample:\nInput\n5\nOutput:\n1\nExplanation:\nx=5.   5! = 120 and  F(5) = 1  as there is only one trailing zeros in the end.",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 34
+    },
+    {
+        "title": "Higher Palindrome",
+        "question": "Question :  \nA positive integer is called a palindrome if its representation in the decimal system is the same when read from left to right and from right to left. For a given positive integer K of not more than 20 digits, write the value of the smallest palindrome larger than K to output. Numbers are always displayed without leading zeros.\nInput\nInteger K of not more than 20 digits\nOutput\noutput the smallest palindrome larger than K.\nExample:\nInput\n12\nOutput:\n22\nExplanation:   The next available palindrome after 12 is only 22.",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 35
+    },
+    {
+        "title": "Longest Voweless Substring",
+        "question": "Write a Java program that will take a string as input and print the longest voweless substring as output.\nSample Input:\nabcdefgykkddfghie\nSample OUtput:\nfgykkddfgh\nExplanation:\nAs we can clearly see the string starts with a vowel \"a\" then there is a substring \"bcd\" which is voweless after which again there is a vowel \"e\" followed by voweless substring \"fgykkddfgh\" again followed by vowels. So we have two voweless substring \"bcd\" and \"fgykkddfgh\" and the longest of them is \"fgykkddfgh\". Hence that is the output.\nHint: Assume that in the testcases there will be no two substrings with same length",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 38
+    },
+    {
+        "title": "Stolen Shoe",
+        "question": "Cinderella is a fan of pairs, especially when it comes to her shoe collection. One day, while inspecting her collection, she discovered that there was an odd number of shoes. Someone had stolen a shoe!\nCan you help Cinderella find out which type of shoe is missing?\nIf there is no missing shoes, print \"None\".\nInput:\n- The first line contains an integer, N, denoting the number of shoes.\n- The next N lines represent the types of shoes that remain in the collection.\nOutput:\n- Display the type of shoe that doesn't have a pair.\nConstraints:\n- 1 \u2264 N \u2264 100,000\n- 0 \u2264 type \u2264 100,000\nExample:\nInput:\n3\n1\n2\n1\nOutput:\n2\nExplanation:\nFor this case, we have three shoes [1, 2, 1]. So we have two shoes of type 1, but only one shoe of type 2. Thus one shoe of type 2 is missing.",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 43
+    },
+    {
+        "title": "Eligible to vote",
+        "question": "You are creating an application for electronic voting system and are \nrequired to validate the age of voter by implementing a class\nValidation which consist of a method boolean validateAge(int). This\nmethod takes an integer age and returns true if the age above 17 and\nis eligible to vote and returns false if the age 17 or below and he/she\nis ineligible to vote. If the age is 0 then throw an exception \n\"Age cannot be zero\" and if the age is <0 then throw the exception\n\"Age cannot be negative\"\nWrite the method boolean validateAge(int age) in class Validation\nand return appropriate boolean value or exception as defined above.",
+        "basecode": "class Validation {\n  /*  write the method  boolean validateAge(int age) here\n   */\n}",
+        "wrappercode": true,
+        "i": 44
+    },
+    {
+        "title": "Kaprekar number",
+        "question": "A positive whole number 'n' that has 'd' number of digits is squared and split into two pieces, a right-hand piece that has 'd' digits and a left-hand piece that has remaining 'd' or 'd-1' digits. If the sum of the two pieces is equal to the number, then 'n' is a Kaprekar number.\nE.g: take number 45. 45 square = 2025. Since 45 is a 2 digit number split 2025 as 20 and 25. Now 20 + 25 = 45 which is the original number.\nHence 45 is a Kaprekar number.\nWrite a java program that will take a number from user and check if the number is a kaprekar number or not.\nSample Input: 45\nOutput: 45 is a kaprekar number\nSample Input: 44\nOutput: 44 is not a kaprekar number",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 45
+    },
+    {
+        "title": "Expand It",
+        "question": "Write a program that reads in a String. If a word in the String contains a numeral n (0 < n < 10) then your program must replace that numeral by the character that follows the numeral repeated n times. It can be assumed that there is no numeral at the end of any word. \nSample Input: \nI wo3rk a2t Ig5ni6te. \nSample Output: \nI worrrk att Ignnnnnitttttte.",
+        "basecode": "//Write your code here",
+        "wrappercode": null,
+        "i": 51
+    },
+    {
+        "title": "Re Order Me",
+        "question": "Given a sentence, write a program to arrange and print the words in the sentence such that the last letter of the previous word is same as the first letter of the next word. Assume the first word is correctly placed in order and start arranging the others.\nSample Input:\nmediocre yielding dedication nationality educated\nSample Output:\nmediocre educated dedication nationality yielding",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 52
+    },
+    {
+        "title": "Lexicographic Order",
+        "question": "Vidyaranya has an obsession for arranging everything in lexicographic order. So he asks his student, Vinod to write a program to find the lexicographically smallest and largest substring of length k. Help Vinod to write the program.\n[Note: Lexicographic order is also known as dictionary order. So \"ball\" is smaller than \"cat\" as ball appears before cat in dictionary. Similarly \"dog\" is smaller than \"dorm\".]\nInput: \nThe first line contains string. The second line contains an integer k, which will be the length of substring.\nOutput: \nPrint the lexicographically smallest substring in the first line and lexicographically largest substring in the second line.\nSample Input:\nwelcometojava\n3\nSample Output:\nava\nwel",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 53
+    },
+    {
+        "title": "Rorrim It",
+        "question": "Mr. Vipareeth and Ms. Ulta Pulta are fellow programmers and in line with their software profession, often get into some cranky discussions. During one such discussion, Vipareeth said that he could read any number correctly, even through a mirror. Ulta thought of putting him at his\nwit's end and wrote a series of numbers and asked him to read and sort them correctly.\nWrite a program that would make Vipareeth proud. The input to your program is:\n1) First line is an integer specifying the number of trials t (1 <= t <= 10)\n2) Second line is an integer giving the count (c) of reversed numbers\n   (2 <= c <= 100)\n3) Third line contains space separated c numbers written in reverse order.\nAssume, all the numbers are positive integers. No number starts with a zero.\nYour program should output the numbers in ascending order.\nSample Input:\n3\n4\n21 31 41 51\n2\n29 54\n5\n19 18 17 16 15\nSample Output:\n12 13 14 15\n45 92\n51 61 71 81 91",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 54
+    },
+    {
+        "title": "Prime Index",
+        "question": "In an array if the elements of an array and the index of an array are both prime, then it is considered as prime index element.\nWrite a program to list out all the prime index elements in an array.\nInput Specification: \nFirst line of input will be the size of an array (2<=size<100)\nSecond line will be the elements of an array\nOutput Specification:\nShow the total number of prime index elements in the first line.\nSecond line onwards, print two integers separated by space, first integer is the prime number and the second integer is its array index. Array index starts at zero.\nNOTE: Consider that the array which you take as input will contain at least one prime index element.\nSample Input: \n5\n2 3 5 7 11\nSample Output: \n2\n5 2\n7 3",
+        "basecode": "//Write your code here",
+        "wrappercode": null,
+        "i": 55
+    },
+    {
+        "title": "Developer Testing-1",
+        "question": "Write a program for print numbers from 0 to n.\n\n\n\n\ninput:\n\n3\n\n\n\n\noutput:\n\n0\n\n1\n\n2\n\n3",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 57
+    },
+    {
+        "title": "Crazy Number",
+        "question": "An Crazy number is an n-digit positive number such that the sum of its digits raised to the power n is the number itself.\nWrite a java program to check whether a number is Crazy number or not.\nInput Specification: First input is an interger t denotes number of test cases. Next there will be t lines denoting t test cases. Each test case line will have a number N for which you have to check whether it is Crazy Number of not.\nConstraints:  0 < t < 2^31 \nOutput Specification: Output contains t lines. ith line output will be either it is a crazy number or not depending on the number in ith test case.\nConstraints: 0 < N < 2^63\nSample Input:\n3\n153\n12\n1634\nSample Output:\n153 is a crazy number\n12 is not a crazy number\n1634 is a crazy number\nExplanation:\n153 is a 3 digit number. So 1^3 + 5^3 + 3^3 = = 1 + 125 + 27 = 153. So, 153 is Crazy number.\n12 is a 2 digit number. So 1^2 + 2^2 = 1 + 4 = 5 != 12. So, 12 is not a Crazy number.\n1634 is a 4 digit number. So 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634. So, 1634 is a Crazy number.\nThe code should be able to give output for 10 digit numbers as well.",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 61
+    },
+    {
+        "title": "AP or GP",
+        "question": "An arithmetic progression (AP) is a sequence of numbers such that the difference of any two successive members of the sequence is a constant. For instance, the sequence 3, 5, 7, 9, 11, 13 ... is an arithmetic progression with common difference 2. For this problem, we will limit ourselves to arithmetic progression whose common difference is a non-zero integer. On the other hand, a geometric progression (GP) is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed non-zero number called the common ratio. For example, the sequence 2, 6, 18, 54 ... is a geometric progression with common ratio 3. For this problem, we will limit ourselves to geometric progression whose common ratio is a non-zero integer. Given three successive members of a sequence, you need to determine the type of the progression and the next successive member. Input is specified on a single line with three integers (\u221210, 000 < a1, a2, a3 < 10, 000) where a1, a2, and a3 are distinct. Output For each input, you program must print a single line of the form: XX v where XX is either AP or GP depending on if the given progression is an Arithmetic or Geometric Progression. v is the next member of the given sequence. All input cases are guaranteed to be either an arithmetic or geometric progressions.\n\n\n\n\nExample 1:\n\nInput 7 9 11\n\nOutput: AP 13\n\n\n\n\nExample 2:\n\nInput: 2 6 18\n\nOutput: GP 54",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 63
+    },
+    {
+        "title": "Game of bus-bus",
+        "question": "The game of bus-bus is played by a set of people, who form a circle. One of the persons in the circle has to say 'one', the next person should say 'two' and so on. Whenever a person gets a number, which is either divisible by seven or ends with seven, he/she should say 'Bus' instead of the number. If the number in turn is both visible by seven and ends with a seven, then 'BusBus' should be uttered. Any one who violates the rule is taken out of the circle and the game continues with the remaining persons. The last one remaining is the winner of the game. Write a program to simulate this game. Input to your program is n (10 <= n <= 100) upto which the above rule should be followed.\n\n\n\n\nSample input: 20\n\nSample output:\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\nBusBus\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\nBus\n\n15\n\n16\n\nBus\n\n18\n\n19\n\n20",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 64
+    },
+    {
+        "title": "Shivani's way of scheduling",
+        "question": "Shivani does scheduling for Ignite training program. She wants to optimize the schedule for the coming week in a way that all batches get same number of lab and zone hours. For that, she has to find out the count of lab hours and zone hours each batch is getting in a day. So, she wants you to help her.Input Specification :The first line will contain name of the batch.Second line contains a string having 40 characters (L for Labs, Z for Zones, S for Session) assuming 8 hours in a day and 5 days in a week.Output Specification :Batch NameDay wise Count of Lab hours and zone hours for that batch.Print \u201cInvalid Input\u201d if input is invalid Sample input :A3L L L S S S Z Z Z Z S S L L L L L L L L S S Z Z Z Z S S L L L L L L L L S S Z Z Sample output :A3Monday: 3L 2ZWednesday: 4L 2ZTuesday: 4L 2ZFriday: 4L 2ZThursday: 4L 2Z",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 65
+    },
+    {
+        "title": "Piglatin encoding",
+        "question": "In Piglatin a word such as KING is replaced by INGKAY, while TROUBLE becomes OUBLETRAY and so on. The first vowel of the original word becomes the start of the translation, any preceding letters being shifted towards the end and followed by AY. Words that begin with a vowel just add AY to it. Words that do not have vowels, leave them as is.\nSome examples of piglatin words are:\n\u201chappy\u201d \u2192 \u201cappyhay\u201d\n\u201cduck\u201d \u2192 \u201cuckday\u201d\n\u201cegg\u201d \u2192 \u201ceggay\u201d\n\u201cinbox\u201d \u2192 \u201cinboxay\u201d\n\u201csky\u201d \u2192 \u201csky\u201d\nWrite a program that takes in a sentence and encodes it into piglatin and prints the encoded sentence.\nExample1 Input: \nTime and tide wait for none \nOutput: \nimeTay anday idetay aitway orfay onenay\nExample 2 Input: \nSky is the limit\nOutput: \nSky isay ethay imitlay\nInput Specifications. \nThe first line contains the sentence to be encoded\nOutput Specification:\npiglatin encoded sentence",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 67
+    },
+    {
+        "title": "Digit Counter",
+        "question": "Digit Counter Suman works with a firm where he has to count the number of digits given to him. Manual counting of digits takes a long time. So being a Graduate Trainee in TCS your job is to help shyam in digitizing the counting work given to him. So if the array is 12,44,85,65,88 then your job is to print the most occurred digit and the digit that never occurred. Digits to be counted will range from 0 to 9 In the above array, most occurred digit is 8 and digits that did not occur at all are 0,3,7,9. Write a java program to achieve the above mentioned problem Input Specification line one size of array (size between 1 and 100) followed by elements of array Output Specification Print the most occurred digit and digit that never occurred in two separate lines.\nSample Input: 4\n125 104 44 64\nSample Output:\nMost occurred digit : 4\nDigits that did not occur : 3,7,8,9\nNote: If there are two or more digits that has occurred more, than print the greater of them. (for e.g. if 4,5 are most occurred digit than print 5)",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 69
+    },
+    {
+        "title": "Is Prime",
+        "question": "Write a  function isPrime that takes a number n as parameter and returns true if n is a prime number and false otherwise.  Use the following function definition:\n  boolean isPrime(int n);",
+        "basecode": "// donot change the class name or method name\npublic class PrimeCheck{\npublic boolean isPrime(int n) {\n//  your code here\n             } // isPrime\n} // class",
+        "wrappercode": true,
+        "i": 71
+    },
+    {
+        "title": "Validate Age",
+        "question": "You are creating an application for a local body election which requires to validate the age \nof the voter to be 18 or above  by implementing a class AgeValidation which consist \nof a method boolean validateAge(int age).\nThis method takes an integer age and returns true if the age is 18 or above and returns false if \nage is between 1 and 17 else  throw InvalidAgeException with the message \"age xx is Invalid\" \nWrite a custom exception and the method boolean validateAge(int mm, int dd) in class AgeValidation\nand return appropriate boolean value or exception as defined above",
+        "basecode": "// write custom exception InvalidAgeException\nclass InvalidAgeException extends Exception {\n    //Complete this exception class\n}\n\nclass AgeValidation {\n  /*  write the method  boolean validateAge(int age) here\n   */\n}",
+        "wrappercode": true,
+        "i": 74
+    },
+    {
+        "title": "Leap Year",
+        "question": "Write a program to input a year and check whether it is a Leap year or not.\n\n\n\n\nSample Input: 2000\n\nSample Output: 2000 is a leap year\n\n\n\n\nSample Input: 2001\n\nSample Output: 2001 is not a leap year",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 75
+    },
+    {
+        "title": "Valid date",
+        "question": "You are creating an application which requires to validate the month\nand day of the month by implementing a class Validation which consist \nof a method boolean validatemmdd(int mm, int dd).\nThis method takes two integer mm and dd and returns true if the both are\nvalid and returns false if either of them or both are invalid. Month(mm)\nshould be between 1 to 12 if not throw exception \"Invalid month\" and\nday(dd) should be <=28,30 or 31 based on the month else throw the exception\n\"Invalid day\".  Year is never a leap year.\nWrite the method boolean validatemmdd(int mm, int dd) in class Validation\nand return appropriate boolean value or exception as defined above",
+        "basecode": "class Validation {\n/* Write your method here\n   boolean validatemmdd(int mm, int dd) \n*/\n}",
+        "wrappercode": true,
+        "i": 88
+    },
+    {
+        "title": "Decryption",
+        "question": "A secret code encrypts a message by putting it in an array's column size n (n < 10, taken from user) and reading down the columns\n(blanks are replaced by asterisks and full stops are added to fill up the array).\nWrite a program that takes an encrypted string (encrypted as above with array's column size as the first character) as input decrypt\nit and prints the original string. Note decrypting means reading by rows.\nNote: Change in array size will change the encryption. So, Array size is given in the first character. If the input given is \u201c6Lohdsoe*ewhdtt*ioasoscpy**ah*.gtn*t.\u201d Then 6 is the array size. Putting it in an array of 6 will look like this;\nL\te\tt\ts\t*\tg\no\t*\tt\to\t*\tt\nh\te\t*\ts\ta\tn\nd\tw\ti\tc\th\t*\ns\th\to\tp\t*\tt\no\td\ta\ty\t.\t.\nReading it row-wise (for decryption) be \u201cLets*g\u201d, \u201co*to*t\u201d, \u201che*san\u201d, \u201cdwich*\u201d, \u201cshop*t\u201d and \u201coday..\u201d.\nCombining these and replacing * with space removing residual \u2018.\u2019 You get the decrypted output \u201cLets go to the sandwich shop today\u201d\nInput specification:\nThe encrypted string with the array size as the first element\nOutput Specification:\nThe original unencrypted string.\nSample Input:\n6Lohdsoe*ewhdtt*ioasoscpy**ah*.gtn*t.\nSample Output :\nLets go to the sandwich shop today",
+        "basecode": "//Write your code here",
+        "wrappercode": null,
+        "i": 94
+    },
+    {
+        "title": "Triple Sum",
+        "question": "You are asked to find the value of the largest triple sum in a positive integer array. A triple is a group of three consecutive elements and a triple sum is the sum of those three consecutive elements. For example, the array A = [1,3,2,4,2,1] has triples (1,3,2), (3,2,4), (2,4,2), and (4,2,1) and the sum of triplets are 6,9,8,and 7 respectively. The largest triple sum is 9 for triple (3,2,4). Write a Java program to print the elements of that largest triple.  \nInput Specification:\nThe first line of the input consists of an integer n (where n>=3) denotes the size of the array. In next line there will be n integers separated by space correspond to the n elements in the array.\nOutput Specification:\nIf value of n is invalid, print 'Invalid Input'.\nElse print the largest triple sum in first line and in second line prints the elements of that largest triple separated by space.\nSample Input :\n6\n1 3 2 4 2 1\nSample Output :\n9\n3 2 4\nExplanation:\nThe given array is [1,3,2,4,2,1] has triples (1,3,2), (3,2,4), (2,4,2), and (4,2,1) and the sum of triplets are 6,9,8,and 7 respectively. The largest triple sum is 9 and its corresponding largest triple is (3,2,4)",
+        "basecode": "//Write your code here",
+        "wrappercode": null,
+        "i": 99
+    },
+    {
+        "title": "Longest sorted Sequence",
+        "question": "Write a java program that accepts an array of integers print out the length of the longest sorted (non-decreasing) sequence of integers in the array along with their values. For example, if the input array is {3, 8, 10, 1, 9, 14, -3, 0, 14, 207, 56, 98, 12}; then the program should print 4 because the longest sorted sequence in the array has four values in it followed by the sequence -3, 0, 14, 207. Notice that sorted means non-decreasing, which means that the sequence could contain duplicates. For example, if the array stores the following values: {17, 42, 3, 5, 5, 5, 8, 2, 4, 6, 1, 19}, then the program should print 5 as the length of the longest sequence followed by the sequence 3, 5, 5, 5, 8. Validate that the array size does not exceed 20. Input Specifications. The first line contains the array size and 2nd line onwards will contain the array values(one value in each line) Output Specification : length of the longest sequence followed by the sequence or Array size of n is Invalid.\n\nSample Input:\n\n13\n\n3 8 10 1 9 14 -3 0 14 207 56 98 12\n\n\n\n\nSample output:\n\n4\n\n-3\n\n0\n\n14\n\n207\n\n\n\n\nSample Input 2:\n\n23\n\n1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5\n\n\n\n\nSample Output 2:\n\nArray size of 23 is Invalid",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 102
+    },
+    {
+        "title": "Cool Number",
+        "question": "D.K. likes interesting numbers like 64. It turns out that 64 is both a square and a cube, since 64 = 8^2 and 64 = 4^3 . D.K. calls these numbers cool. Write a program that helps D.K. figure out how many integers in a given range are cool. Input Specification : On the first line of input, you are given an integer a such that a = 1 and a <= 10^8 . On the second line of input, you are given an integer b such that a = b and b <= 10^8 . Output Specification : The output should be the number of cool numbers in the range a to b (inclusively: that is, a and b would count as cool numbers in the range if they were actually cool).\nSample Input: 1 100\nSample Output: 2\nSample Input: 100 1000\nSample Output: 1",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 104
+    },
+    {
+        "title": "Haider's Problem",
+        "question": "Sahil is expert in java whereas Haider is learning java, during his training he wrote a Java program to convert a sentence into title case where first letter of each word must be capital, while submitting the program Sahil found an exception for abbreviation words, that is a word which is shortened form of any other word should not be converted into title case.\nNow Haider is thinking how to solve this problem, help Haider to convert the whole sentence into title case but abbreviations which are in capital case like INC, IPL, ICC should remain the same.\nInput Specification\nOne line sentence that should be converted into title case.\nOutput Specification\nSame line in title case without converting abbreviations into title case.\nConstraint\nComplete sentence should not be in UPPERCASE\nSample Input 1\nhello welcome to TCS ignite\nSample Output 1\nHello Welcome To TCS Ignite\nSample Input 2\nsonarQube is devOps tool\nSample Output 2\nSonarQube Is DevOps Tool",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 105
+    },
+    {
+        "title": "Lychrel numbers",
+        "question": "If we take 47, reverse and add, 47 + 74 = 121, which is palindromic.\nNot all numbers produce palindromes so quickly. For example,\n349 + 943 = 1292,\n1292 + 2921 = 4213\n4213 + 3124 = 7337\nThat is, 349 took three iterations to arrive at a palindrome.\nAlthough  some numbers like 196, never produce a palindrome. A number that never forms a palindrome through the reverse and add process is called a Lychrel number.\nWrite a java program to take a number and check whether it is a  Lychrel number or not.\nIf a number is not Lychrel then print the number of iterations that it took to produce a palindrome.\nIf the number is Lychrel then print the 5th iteration\nNOTE: Check only till 10 iterations. If till 10 iterations you cannot find the palindrome then consider that number as Lychrel number. Use long datatype\nSample Input: 47\nSample Output: 1\nSample Input: 349\nSample Output: 3\nSample Input: 196\nSample Output: 196 is a Lychrel Number 5th iteration of number 196 is 52514",
+        "basecode": "import java.util.*;\nclass Solution{\n    public static void main(String args[]){\n        //Write your code here\n    }\n}",
+        "wrappercode": null,
+        "i": 106
+    },
+    {
+        "title": "Longest Consecutive Element",
+        "question": "Given an unsorted array of integers, find the length of the longest consecutive elements sequence.\nFor example:\n Given [100, 4, 200, 1, 3, 2], the longest consecutive elements sequence should be [1, 2, 3, 4]. Solve the problem without using sorting algorithm for given array.\nInput: \nfirst line will be length of an array N\nnext N line will contain values for that array.\nOutput:\nLength of consecutive elements sequence\nSample Input:\n100 4 200 1 3 2\nSample Output:\n4\nExplanation: The longest consecutive chain which can be formed is 1 2 3 4 and its length is 4.",
+        "basecode": "//Write your code here",
+        "wrappercode": null,
+        "i": 108
+    },
+    {
+        "title": "Profit",
+        "question": "Write a program to calculate the Gain which will take three inputs- the actual cost of the item, the cost to repair and the selling price of that item and it will print the net gain and gain percentage after selling the item.\n\n\n\n\nSample Input:\n\n240\n\n45\n\n350\n\n\n\n\nSample Output:\n\n65\n\n22.81",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 109
+    },
+    {
+        "title": "String Starter",
+        "question": "Write a program to take a string input and print all the characters. Skip printing of a character if it has already been printed. So no letters in the output should be repeated.\n\nNote: space and special characters are also characters in the string.\n\n\n\n\nExample 1:-\n\nInput: This iS a Sample input line of text\n\nOutput: This amplenutofx\n\n\n\n\nExample 2:-\n\nInput: This is a cat\n\nOutput: This ac",
+        "basecode": "//write your code here",
+        "wrappercode": null,
+        "i": 110
+    },
+    {
+        "title": "Dec2Base",
+        "question": "Given a decimal integer n and a base b, write a function that returns n in base b. Note:  for values 10 and above use \"A\" to \"F\". use the following function definition (valid base values 2-16):\n String dec2Base (int num, int base).  Example of the function call with different bases and it output is given below:\n  \n    dec2Base(17,2) =>  10001      dec2Base(17,8)  =>  21\n    dec2Base(26,16)  =>  1A",
+        "basecode": "// donot change the class name or method name\npublic class BaseConversion{\npublic String dec2Base(int n,int b) {\n//  your code here\n             } // dec2Base\n} // class",
+        "wrappercode": true,
+        "i": 113
+    },
+    {
+        "title": "Simple Interest",
+        "question": "A sum fetched a total simple interest of Rs. 4016.25 in 5 years. Calculate the principal amount when the rate is x% pa (get x value from user input). Answer should be up to two decimal places.\n\n\n\n\nSample Input: 10\n\nSample Output: 8032.50",
+        "basecode": "import java.util.Scanner;\nimport java.text.DecimalFormat;\n\npublic class SimpleInterestCalculator {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Fixed simple interest and time\n        double SI = 4016.25;\n        double T = 5;\n\n        // Get rate from user input\n        double R = sc.nextDouble();\n\n\n        // Calculate principal\n        double P = (SI * 100) / (R * T);\n\n        // Format to 2 decimal places\n        DecimalFormat df = new DecimalFormat(\"0.00\");\n        System.out.println(df.format(P));\n\n        sc.close();\n    }\n}",
+        "wrappercode": null,
+        "i": 116
+    }
+]
